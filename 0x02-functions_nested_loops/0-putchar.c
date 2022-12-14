@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
- * Description: prints _putchar, followed by a new line
+ * main - Entry point
  * Return: Alwys 0 (Success)
  */
+
 int main(void)
 {
 	char abe[] = "_putchar";
@@ -13,6 +15,6 @@ int main(void)
 	{
 		_putchar(abe[c]);
 	}
-	_putchar("\n");
+	_putchar('\n');
 	return (0);
 }
